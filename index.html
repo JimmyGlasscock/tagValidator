@@ -1,0 +1,31 @@
+<html>
+	<!-- THIS FORM IS FOR VALIDATING BARCODES -->
+	<head>
+		<title>Tag Validator</title>
+		
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900" rel="stylesheet" type="text/css">
+	
+	
+	</head>
+	
+	<body>
+		<div id="title" class="contain">
+			<span class="textcenter" id="titleText">
+				<h1><strong>Tag</strong> Validator</h1>
+			</span>
+		</div>
+     <!--<div class=\"logos\"><img src=\"images/auxheader.png\" alt=\"University of Utah Auxiliary Services logo\" /></div>-->
+	<div class="contain">
+		<form align="center" method="post" action="validate.php">
+			<!--<p>Click inside the textbox, then scan the Barcode.</p>-->
+			<input class="center-block" type="text" id="barcode" name="barcode" size="35" autofocus>
+			<button type="submit" name="submit" style="display: none;">Submit</button>
+		</form>
+		</div><!-- end contain -->
+        <footer>
+			<hr>
+			<h4 class="textcenter">&copy; University of Utah 2016<script>new Date().getFullYear()>2015&&document.write(" - "+new Date().getFullYear());</script></h4>
+		</footer>
+	</body>
+</html>
